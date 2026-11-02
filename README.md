@@ -32,9 +32,21 @@ Rome is in early development, starting with coding-agent chats. Cross-app chat m
 <a href="https://github.com/t3knobox/rome-releases/releases/download/v0.15.0-beta.1/Rome-arm64.dmg"><img src="assets/install-macos-arm64.svg" alt="Get Rome for macOS — Apple Silicon" width="380"></a>
 <a href="https://github.com/t3knobox/rome-releases/releases/download/v0.15.0-beta.1/Rome-x64.dmg"><img src="assets/install-macos-x64.svg" alt="Get Rome for macOS — Intel" width="380"></a>
 
-1. Choose **Apple Silicon** for an M-series Mac, or **Intel** for an Intel Mac. Check **Apple menu → About This Mac** if unsure.
-2. Open the downloaded `.dmg` and drag **Rome** into **Applications**.
-3. Open Rome from Applications. This preview is not Apple-notarized. If macOS blocks it, follow [Apple’s Open Anyway steps](https://support.apple.com/en-sg/102445) in **System Settings → Privacy & Security**.
+1. Click the download button above for your Mac: **Apple Silicon** for an M-series Mac, or **Intel** for an Intel Mac. Check **Apple menu → About This Mac** if unsure.
+2. Open the downloaded `.dmg` file and drag **Rome** into **Applications**.
+3. Open **Finder → Applications** and double-click **Rome**.
+4. Once Rome is installed, you can eject the disk image from Finder.
+
+### If macOS won’t open Rome
+
+> **Note:** This preview is not Apple-notarized, so macOS may block it the first time you open it or say that Apple cannot verify it. If you downloaded Rome from this repository and trust it, use **Open Anyway**:
+
+1. Try opening **Rome** from **Applications** once, then dismiss the warning.
+2. Open **Apple menu → System Settings → Privacy & Security**.
+3. Scroll down to **Security** and click **Open Anyway** beside the message about Rome.
+4. Confirm with **Open** if prompted, and enter your Mac password or use Touch ID if asked.
+
+If **Open Anyway** is missing, try opening Rome again, then return to **Privacy & Security**. See [Apple’s instructions for opening a blocked app](https://support.apple.com/en-sg/102445) for more help.
 
 See the [release notes](https://github.com/t3knobox/rome-releases/releases/tag/v0.15.0-beta.1) for preview limits and checksums.
 
