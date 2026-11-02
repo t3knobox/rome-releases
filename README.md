@@ -27,20 +27,20 @@ Rome is in early development, starting with coding-agent chats. Cross-app chat m
 
 ## Install Rome
 
-**macOS first: Apple Silicon and Intel, macOS 13 or later.** The first installer is being prepared. These buttons open the releases page; downloads will appear there when ready.
+**The first macOS preview is here: v0.15.0-beta.1.** Apple Silicon and Intel, macOS 13 or later. Pick your Mac; Rome handles the introductions.
 
-<a href="https://github.com/t3knobox/rome-releases/releases"><img src="assets/install-macos-arm64.svg" alt="Get Rome for macOS — Apple Silicon" width="380"></a>
-<a href="https://github.com/t3knobox/rome-releases/releases"><img src="assets/install-macos-x64.svg" alt="Get Rome for macOS — Intel" width="380"></a>
-
-Once released:
+<a href="https://github.com/t3knobox/rome-releases/releases/download/v0.15.0-beta.1/Rome-arm64.dmg"><img src="assets/install-macos-arm64.svg" alt="Get Rome for macOS — Apple Silicon" width="380"></a>
+<a href="https://github.com/t3knobox/rome-releases/releases/download/v0.15.0-beta.1/Rome-x64.dmg"><img src="assets/install-macos-x64.svg" alt="Get Rome for macOS — Intel" width="380"></a>
 
 1. Choose **Apple Silicon** for an M-series Mac, or **Intel** for an Intel Mac. Check **Apple menu → About This Mac** if unsure.
 2. Open the downloaded `.dmg` and drag **Rome** into **Applications**.
-3. Open Rome from Applications. All roads lead to your chats.
+3. Open Rome from Applications. This preview is not Apple-notarized. If macOS blocks it, follow [Apple’s Open Anyway steps](https://support.apple.com/en-sg/102445) in **System Settings → Privacy & Security**.
+
+See the [release notes](https://github.com/t3knobox/rome-releases/releases/tag/v0.15.0-beta.1) for preview limits and checksums.
 
 ### Keep Rome current
 
-The installer will include **Check for updates** and **Restart to update** under **Settings → Hubs & collaboration → About**. Enable **Automatic updates** there to download updates in the background and install when you quit. Automatic updates start off; you choose when Rome gets the keys.
+Use **Check for updates**, then **Install update & restart** under **Settings → Hubs & collaboration → About**. Enable **Automatic updates** there to download updates in the background and install when you quit. Automatic updates start off; you choose when Rome gets the keys. Preview builds receive later preview updates too. Install this first release once; future releases can update inside Rome.
 
 ## About this repository
 
