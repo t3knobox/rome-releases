@@ -27,12 +27,11 @@ Rome is in early development, starting with coding-agent chats. Cross-app chat m
 
 ## Install Rome
 
-**The latest macOS preview is here: v0.15.0-beta.2.** Apple Silicon and Intel, macOS 13 or later. Pick your Mac; Rome handles the introductions.
+**The latest macOS preview is here: v0.15.0-beta.2.** Apple Silicon (M-series) Macs only, running macOS 13 or later.
 
 <a href="https://github.com/t3knobox/rome-releases/releases/download/v0.15.0-beta.2/Rome-arm64.dmg"><img src="assets/install-macos-arm64.svg" alt="Get Rome for macOS — Apple Silicon" width="380"></a>
-<a href="https://github.com/t3knobox/rome-releases/releases/download/v0.15.0-beta.2/Rome-x64.dmg"><img src="assets/install-macos-x64.svg" alt="Get Rome for macOS — Intel" width="380"></a>
 
-1. Click the download button above for your Mac: **Apple Silicon** for an M-series Mac, or **Intel** for an Intel Mac. Check **Apple menu → About This Mac** if unsure.
+1. Click the download button above. Rome requires an **Apple Silicon (M-series) Mac**. Check **Apple menu → About This Mac** if unsure.
 2. Open the downloaded `.dmg` file and drag **Rome** into **Applications**.
 3. Open **Finder → Applications** and double-click **Rome**.
 4. Once Rome is installed, you can eject the disk image from Finder.
@@ -52,7 +51,7 @@ See the [release notes](https://github.com/t3knobox/rome-releases/releases/tag/v
 
 ### Keep Rome current
 
-Use **Check for updates**, then **Install update & restart** under **Settings → Hubs & collaboration → About**. Enable **Automatic updates** there to download updates in the background and install when you quit. Automatic updates start off; you choose when Rome gets the keys. Preview builds receive later preview updates too. Existing v0.15.0-beta.1 installations can update inside Rome.
+Use **Check for updates**, then **Install update & restart** under **Settings → Hubs & collaboration → About**. Enable **Automatic updates** there to download updates in the background and install when you quit. Automatic updates start off; you choose when Rome gets the keys. Preview builds receive later preview updates too. Existing Apple Silicon v0.15.0-beta.1 installations can update inside Rome.
 
 ## About this repository
 
