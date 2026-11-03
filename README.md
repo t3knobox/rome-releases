@@ -1,66 +1,95 @@
-# Rome
+<p align="center">
+  <img src="assets/rome-banner.svg" alt="Rome — Your agents. One workspace. A shared home for your coding conversations." width="1200">
+</p>
 
-**Your AI apps, finally on speaking terms.**
+<p align="center">
+  <strong>Your AI apps, finally on speaking terms.</strong><br>
+  Bring coding conversations together. Share context. Stay in control.
+</p>
 
-Rome is being built to unify LLM desktop apps in one workspace, with **chat mirroring** at its core.
-
-Different models. Shared context. Less copy-paste diplomacy.
-
-## Chat mirroring
-
-The goal is simple: let different LLMs talk and work together as if they share the same environment, with those conversations reflected in their individual desktop apps.
-
-Ask one model to make a plan, another to poke holes in it, and a third to help build it. Rome aims to keep that collaboration connected to the original chats, so you can move between Rome and your familiar apps without playing messenger.
-
-## Give your chats a shared home
-
-- **Hubs** group related chats around a project or idea.
-- **Shared material** keeps the brief, references, and outputs in one place.
-- **Connection controls** let you choose which chats can read each other’s history, send messages, or delegate tasks.
-- **One workspace** helps you follow the work across models and pick up the right conversation.
-
-Rome handles the introductions. You stay in charge.
-
-## Where things stand
-
-Rome is in early development, starting with coding-agent chats. Cross-app chat mirroring is still being developed and tested; compatibility and sync behavior depend on each app’s integration.
+<p align="center">
+  <a href="#install-rome">Install</a> &nbsp; / &nbsp;
+  <a href="#a-workspace-built-around-your-chats">The workspace</a> &nbsp; / &nbsp;
+  <a href="#an-early-preview-with-a-clear-direction">Preview notes</a> &nbsp; / &nbsp;
+  <a href="https://github.com/t3knobox/rome-releases/releases">Releases</a>
+</p>
 
 ## Install Rome
 
-**The latest macOS preview is here: v0.15.0-beta.2.** Apple Silicon (M-series) Macs only, running macOS 13 or later.
+<p>
+  <a href="https://github.com/t3knobox/rome-releases/releases/download/v0.15.0-beta.2/Rome-arm64.dmg"><img src="assets/install-macos-arm64.svg" alt="Download Rome for macOS — Apple Silicon" width="340"></a>
+</p>
 
-<a href="https://github.com/t3knobox/rome-releases/releases/download/v0.15.0-beta.2/Rome-arm64.dmg"><img src="assets/install-macos-arm64.svg" alt="Get Rome for macOS — Apple Silicon" width="380"></a>
+**v0.15.0-beta.2 · Apple Silicon · macOS 13 or later**
 
-1. Click the download button above. Rome requires an **Apple Silicon (M-series) Mac**. Check **Apple menu → About This Mac** if unsure.
-2. Open the downloaded `.dmg` file and drag **Rome** into **Applications**.
-3. Open **Finder → Applications** and double-click **Rome**.
-4. Once Rome is installed, you can eject the disk image from Finder.
+[Release notes & checksums](https://github.com/t3knobox/rome-releases/releases/tag/v0.15.0-beta.2)
 
-### If macOS won’t open Rome
+1. **Download** the DMG for your M-series Mac.
+2. **Drag Rome into Applications**, then open it from there.
+3. **Connect your coding agents** and bring your conversations into a Hub.
 
-> **Note:** This preview is not Apple-notarized, so macOS may block it the first time you open it or say that Apple cannot verify it. If you downloaded Rome from this repository and trust it, use **Open Anyway**:
+> This preview is not Apple-notarized. If macOS blocks the first launch, follow the steps below.
 
-1. Try opening **Rome** from **Applications** once, then dismiss the warning.
-2. Open **Apple menu → System Settings → Privacy & Security**.
-3. Scroll down to **Security** and click **Open Anyway** beside the message about Rome.
-4. Confirm with **Open** if prompted, and enter your Mac password or use Touch ID if asked.
+<details>
+<summary><strong>First launch: macOS won’t open Rome</strong></summary>
 
-If **Open Anyway** is missing, try opening Rome again, then return to **Privacy & Security**. See [Apple’s instructions for opening a blocked app](https://support.apple.com/en-sg/102445) for more help.
+After downloading from this repository:
 
-See the [release notes](https://github.com/t3knobox/rome-releases/releases/tag/v0.15.0-beta.2) for preview limits and checksums. **Settings → Hubs & collaboration → About** shows your installed version and build revision.
+1. Try opening **Rome** from **Applications**, then dismiss the warning.
+2. Open **System Settings → Privacy & Security**.
+3. Under **Security**, choose **Open Anyway** beside Rome.
+4. Confirm with **Open** and authenticate if asked.
 
-### Keep Rome current
+If the option is missing, try opening Rome again and return to Privacy & Security. [Apple’s guide](https://support.apple.com/en-sg/102445) explains the process. Once installed, you can eject the disk image.
 
-Use **Check for updates**, then **Install update & restart** under **Settings → Hubs & collaboration → About**. Enable **Automatic updates** there to download updates in the background and install when you quit. Automatic updates start off; you choose when Rome gets the keys. Preview builds receive later preview updates too. Existing Apple Silicon v0.15.0-beta.1 installations can update inside Rome.
+</details>
 
-## About this repository
+<details>
+<summary><strong>Updates: check your version and get the next preview</strong></summary>
 
-**There’s only one official Rome, and it lives here on GitHub.** We don’t have a separate website. If that changes, we’ll announce it here first.
+Open **Settings → Hubs & collaboration → About** to see your version and source revision. Choose **Check for updates**, then **Install update & restart**.
 
-This is Rome’s public home for installers, release notes, update files, and notices. Application source and development history are maintained separately in a private repository.
+**Automatic updates** are optional and off by default. Enable them to prepare updates in the background and install on quit. Apple Silicon beta.1 installations can update inside Rome.
 
-GitHub’s automatic “Source code” archives contain only this download repository’s files; they are not the Rome application source.
+</details>
 
-## Open-source acknowledgements
+## A workspace built around your chats
 
-Rome is derived from [Paseo](https://github.com/getpaseo/paseo), copyright © 2025–present Mohamed Boudra, licensed under the [Apache License 2.0](LICENSE). Third-party components retain their respective licenses.
+Give each agent a role. Keep the project’s context together. Decide how the conversations connect.
+
+| Your workspace | What it gives you |
+| :--- | :--- |
+| **Hubs** | A shared home for related coding chats, with a brief, references, and outputs you can maintain together. |
+| **Connection graph** | Choose which chats can read history, send messages, or delegate. Sharing a Hub alone doesn’t grant access. |
+| **Native conversations** | Discover and continue existing coding-agent sessions where the provider supports it, using installed agents and their accounts. |
+| **Room to work** | Chats, files, changes, terminals, and a browser in one place, with dark and light themes and custom backgrounds. |
+
+### Different agents. Shared context.
+
+Ask one agent to plan, another to review, and a third to build. Rome is being developed to connect that work to the original coding conversations, so you can move between your workspace and the agents’ own apps.
+
+## An early preview with a clear direction
+
+**Available now:** a Mac coding workspace with Hubs, shared material, connection controls, and provider-dependent native-session support.
+
+**Still being developed:** cross-app chat mirroring and broader integration coverage. Session history and simultaneous control depend on each provider; opening a conversation in Rome does **not** guarantee it stays writable in another desktop app.
+
+**Current scope:** Apple Silicon Macs and coding-agent conversations. Ordinary ChatGPT, Claude.ai, and Gemini consumer chats are excluded. Phone pairing is deferred.
+
+---
+
+<details>
+<summary><strong>About this repository</strong></summary>
+
+This is Rome’s official public home for installers, release notes, update files, and notices. There is no separate Rome website; any change will be announced here.
+
+Application source and development history are maintained in a separate private repository. GitHub’s automatic **Source code** archives contain this download repository’s files, not the Rome application source.
+
+</details>
+
+<details>
+<summary><strong>Open-source acknowledgements</strong></summary>
+
+Rome is derived from [Paseo](https://github.com/getpaseo/paseo), copyright © 2025–present Mohamed Boudra, under the [Apache License 2.0](LICENSE). Third-party components retain their respective licenses.
+
+</details>

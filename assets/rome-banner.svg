@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Rome — Your agents. One workspace.</title>
+  <desc id="desc">The orange Rome wordmark on charcoal, beside an illustration of glass bubbles connected into a Hub.</desc>
+  <defs>
+    <radialGradient id="warm"><stop stop-color="#9b3928" stop-opacity=".7"/><stop offset="1" stop-color="#9b3928" stop-opacity="0"/></radialGradient>
+    <radialGradient id="pearl" cx=".28" cy=".15" r=".95"><stop stop-color="#575052" stop-opacity=".85"/><stop offset=".42" stop-color="#262326" stop-opacity=".92"/><stop offset="1" stop-color="#131316"/></radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eed8ca" stop-opacity=".7"/><stop offset=".4" stop-color="#d8c1b9" stop-opacity=".12"/><stop offset="1" stop-color="#f78156" stop-opacity=".5"/></linearGradient>
+    <linearGradient id="thread"><stop stop-color="#ffa477" stop-opacity=".22"/><stop offset=".5" stop-color="#ffa477"/><stop offset="1" stop-color="#ed624e" stop-opacity=".35"/></linearGradient>
+    <clipPath id="frame"><rect width="1200" height="380" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="380" fill="#121214"/>
+    <ellipse cx="1025" cy="360" rx="440" ry="300" fill="url(#warm)"/>
+    <ellipse cx="835" cy="35" rx="260" ry="190" fill="url(#warm)" opacity=".3"/>
+    <g fill="none" stroke="url(#thread)" stroke-width="2">
+      <path d="M795 96C858 96 828 196 920 196"/>
+      <path d="M774 283C857 283 836 196 920 196"/>
+      <path d="M920 196C1001 196 985 90 1060 90"/>
+      <path d="M920 196C1008 196 993 292 1076 292"/>
+    </g>
+    <g fill="url(#pearl)" stroke="url(#rim)" stroke-width="1.5">
+      <circle cx="795" cy="96" r="38"/>
+      <circle cx="774" cy="283" r="30"/>
+      <circle cx="1060" cy="90" r="27"/>
+      <circle cx="1076" cy="292" r="43"/>
+      <circle cx="920" cy="196" r="67"/>
+    </g>
+    <g fill="none" stroke-linecap="round">
+      <path d="M764 87A33 33 0 0 1 817 71M1040 278A38 38 0 0 1 1094 258" stroke="#ffc5a5" stroke-opacity=".55" stroke-width="2"/>
+      <path d="M864 182A58 58 0 0 1 951 147" stroke="#ffc5a5" stroke-opacity=".7" stroke-width="2"/>
+    </g>
+    <g fill="#ffa477"><circle cx="795" cy="96" r="6"/><circle cx="774" cy="283" r="4"/><circle cx="1060" cy="90" r="4"/><circle cx="1076" cy="292" r="7"/></g>
+    <g transform="translate(884 158) scale(1.15)" fill="none" stroke="#ffa477" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M17 50V25C17 15 23 10 32 10C41 10 47 15 47 25C47 35 40 39 31 39H18M33 39L48 53"/></g>
+    <g transform="translate(57 53) scale(1.12)" fill="none" stroke="#ffa477" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M17 50V25C17 15 23 10 32 10C41 10 47 15 47 25C47 35 40 39 31 39H18M33 39L48 53"/></g>
+    <text x="132" y="112" fill="#f4f2ef" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="64" font-weight="600" letter-spacing="-3">Rome</text>
+    <text x="72" y="207" fill="#f4f2ef" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="49" font-weight="500" letter-spacing="-1.7">Your agents.</text>
+    <text x="72" y="264" fill="#f4f2ef" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="49" font-weight="500" letter-spacing="-1.7">One workspace.</text>
+    <text x="74" y="325" fill="#bbb3b1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="18">A shared home for your coding conversations.</text>
+  </g>
+</svg>
