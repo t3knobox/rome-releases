@@ -59,12 +59,31 @@ Open **Settings → Hubs & collaboration → About** to see your version and sou
 
 Give each agent a role. Keep the project’s context together. Decide how the conversations connect.
 
-| Your workspace | What it gives you |
-| :--- | :--- |
-| **Hubs** | A shared home for related coding chats, with a brief, references, and outputs you can maintain together. |
-| **Connection graph** | Choose which chats can read history, send messages, or delegate. Sharing a Hub alone doesn’t grant access. |
-| **Native conversations** | Discover and continue existing coding-agent sessions where the provider supports it, using installed agents and their accounts. |
-| **Room to work** | Chats, files, changes, terminals, and a browser in one place, with dark and light themes and custom backgrounds. |
+<sub>Actual Rome interface, shown with sample project and conversation data.</sub>
+
+### Hubs
+
+Keep related chats together, with a shared brief, references, and outputs your team of agents can maintain.
+
+![Rome Hub context showing the shared brief, references, outputs, access controls, and history](assets/screenshots/hubs.png)
+
+### Connection graph
+
+Draw the connections. Set who can read history, send messages, or delegate—in either direction. Sharing a Hub alone doesn’t grant access.
+
+![Rome Node Graph with three chat nodes, two connections, and permission controls](assets/screenshots/graph.png)
+
+### Native conversations
+
+Find and continue existing coding-agent sessions where the provider supports it, using your installed agents and their accounts.
+
+![Rome session import showing three example Claude Code conversations from the same project](assets/screenshots/native.png)
+
+### Room to work
+
+Chats, files, changes, terminals, and a browser in one workspace. Make it yours with dark and light themes and custom backgrounds.
+
+![Rome workspace showing Hub chats, conversation tabs, a document preview, and the Files sidebar](assets/screenshots/workspace.png)
 
 ### Different agents. Shared context.
 
