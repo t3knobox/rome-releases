@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/rome-banner.svg" alt="Rome — Your agents. One workspace. A shared home for your coding conversations." width="1200">
+  <img src="assets/rome-banner.svg" alt="Rome — Agent Orchestration, Cross LLM Synced. synced across your coding conversations" width="1200">
 </p>
 
 <p align="center">
@@ -21,6 +21,8 @@
 </p>
 
 **v0.15.0-beta.2 · Apple Silicon · macOS 13 or later**
+
+**Windows coming soon.**
 
 [Release notes & checksums](https://github.com/t3knobox/rome-releases/releases/tag/v0.15.0-beta.2)
 
