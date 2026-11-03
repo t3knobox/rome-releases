@@ -17,14 +17,14 @@
 ## Install Rome
 
 <p>
-  <a href="https://github.com/t3knobox/rome-releases/releases/download/v0.15.1-beta.4/Rome-arm64.dmg"><img src="assets/install-macos-arm64.svg" alt="Download Rome for macOS — Apple Silicon" width="340"></a>
+  <a href="https://github.com/t3knobox/rome-releases/releases/download/v0.15.1-beta.6/Rome-arm64.dmg"><img src="assets/install-macos-arm64.svg" alt="Download Rome for macOS — Apple Silicon" width="340"></a>
 </p>
 
-**v0.15.1-beta.4 · Apple Silicon · macOS 13 or later**
+**v0.15.1-beta.6 · Apple Silicon · macOS 13 or later**
 
 **Windows coming soon.**
 
-[Release notes & checksums](https://github.com/t3knobox/rome-releases/releases/tag/v0.15.1-beta.4)
+[Release notes & checksums](https://github.com/t3knobox/rome-releases/releases/tag/v0.15.1-beta.6)
 
 1. **Download** the DMG for your M-series Mac.
 2. **Drag Rome into Applications**, then open it from there.
@@ -49,7 +49,7 @@ If the option is missing, try opening Rome again and return to Privacy & Securit
 <details>
 <summary><strong>Updates: check your version and get the next preview</strong></summary>
 
-Open **Settings → Hubs & collaboration → About** to see your version and source revision. Choose **Check for updates**, then **Install update & restart**.
+Open **Settings → General → About** to see your version and source revision. Choose **Check for updates**, then **Install update & restart**.
 
 **Automatic updates** are optional and off by default. Enable them to prepare updates in the background and install on quit. Existing Apple Silicon previews can update inside Rome.
 
