@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/rome-banner.svg" alt="Rome — Agent Orchestration, Cross LLM Synced. synced across your coding conversations" width="1200">
+  <img src="assets/rome-banner.svg" alt="Rome — Agent Orchestration, Cross LLM Synced. Synced across your coding conversations" width="1200">
 </p>
 
 <p align="center">

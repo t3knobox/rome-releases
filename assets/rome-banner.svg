@@ -35,6 +35,6 @@
     <text x="132" y="112" fill="#f4f2ef" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="64" font-weight="600" letter-spacing="-3">Rome</text>
     <text x="72" y="207" fill="#f4f2ef" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="49" font-weight="500" letter-spacing="-1.7">Agent Orchestration,</text>
     <text x="72" y="264" fill="#f4f2ef" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="49" font-weight="500" letter-spacing="-1.7">Cross LLM Synced</text>
-    <text x="74" y="325" fill="#bbb3b1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="18">synced across your coding conversations</text>
+    <text x="74" y="325" fill="#bbb3b1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="18">Synced across your coding conversations</text>
   </g>
 </svg>
