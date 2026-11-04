@@ -17,14 +17,14 @@
 ## Install Rome
 
 <p>
-  <a href="https://github.com/t3knobox/rome-releases/releases/download/v0.15.1-beta.25/Rome-arm64.dmg"><img src="assets/install-macos-arm64.svg" alt="Download Rome for macOS — Apple Silicon" width="340"></a>
+  <a href="https://github.com/t3knobox/rome-releases/releases/download/v0.15.1-beta.28/Rome-arm64.dmg"><img src="assets/install-macos-arm64.svg" alt="Download Rome for macOS — Apple Silicon" width="340"></a>
 </p>
 
-**v0.15.1-beta.25 · Apple Silicon · macOS 13 or later**
+**v0.15.1-beta.28 · Apple Silicon · macOS 13 or later**
 
 **Windows coming soon.**
 
-[Release notes & checksums](https://github.com/t3knobox/rome-releases/releases/tag/v0.15.1-beta.25)
+[Release notes & checksums](https://github.com/t3knobox/rome-releases/releases/tag/v0.15.1-beta.28)
 
 1. **Download** the DMG for your M-series Mac.
 2. **Drag Rome into Applications**, then open it from there.
